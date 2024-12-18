@@ -3,7 +3,7 @@ import { Stack, TextField, Typography } from '@mui/material';
 import { useState } from 'react';
 import { Button } from '../../components/Button';
 
-const polishAlphabet = 'aąbcćdeęfghijklłmnńoóprsśtuwyzźż';
+const polishAlphabet = 'aąbcćdeęfghijklłmnńoóprsśtuwyzźżv';
 
 export const Caesar = () => {
   const [encryptInput, setEncryptInput] = useState('');
