@@ -97,7 +97,7 @@ export const Vigenere = () => {
         </Typography>
       </BoxShadowContainer>
 
-      <BoxShadowContainer alignItems='flex-start'>
+      <BoxShadowContainer alignItems='flex-start' mb='1rem'>
         <Typography variant='h5'>Deszyfrowanie</Typography>
 
         <TextField

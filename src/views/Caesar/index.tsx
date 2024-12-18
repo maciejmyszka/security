@@ -32,6 +32,7 @@ export const Caesar = () => {
   const handleEncrypt = () => {
     const result = caesarCipher(encryptInput, Number(shift), true);
     setEncryptedText(result);
+    setDecryptInput(result);
   };
 
   const handleDecrypt = () => {
